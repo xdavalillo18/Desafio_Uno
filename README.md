@@ -3,10 +3,10 @@
 El desafío consiste en lo siguiente:
 
 -	Existe un servicio REST que llamaremos Generador De Datos o GDD.
-  -	El servicio responde con una lista de fechas generadas aleatoriamente. Estas fechas se encuentran en un lapso definidos por dos valores: fechaCreacion y fechaFin.
-  -	Cada fecha generada corresponde al primer día de un mes.
-  -	La respuesta contienen un máximo de 100 fechas. 
-  -	El servicio no entrega todas las fechas dentro del periodo, omite algunas de forma también aleatoria.
+	-	El servicio responde con una lista de fechas generadas aleatoriamente. Estas fechas se encuentran en un lapso definidos por dos valores: fechaCreacion y fechaFin.
+	-	Cada fecha generada corresponde al primer día de un mes.
+	-	La respuesta contienen un máximo de 100 fechas. 
+	-	El servicio no entrega todas las fechas dentro del periodo, omite algunas de forma también aleatoria.
 -	El objetivo de este ejercicio es que determines cuáles son los periodos que faltan.
 
 Este es un ejemplo de la respuesta que entrega este servicio:
