@@ -3,10 +3,10 @@
 El desafío consiste en lo siguiente:
 
 -	Existe un servicio REST que llamaremos Generador De Datos o GDD.
--	El servicio responde con una lista de fechas generadas aleatoriamente. Estas fechas se encuentran en un lapso definidos por dos valores: fechaCreacion y fechaFin.
--	Cada fecha generada corresponde al primer día de un mes.
--	La respuesta contienen un máximo de 100 fechas. 
--	El servicio no entrega todas las fechas dentro del periodo, omite algunas de forma también aleatoria.
+  -	El servicio responde con una lista de fechas generadas aleatoriamente. Estas fechas se encuentran en un lapso definidos por dos valores: fechaCreacion y fechaFin.
+  -	Cada fecha generada corresponde al primer día de un mes.
+  -	La respuesta contienen un máximo de 100 fechas. 
+  -	El servicio no entrega todas las fechas dentro del periodo, omite algunas de forma también aleatoria.
 -	El objetivo de este ejercicio es que determines cuáles son los periodos que faltan.
 
 Este es un ejemplo de la respuesta que entrega este servicio:
@@ -114,9 +114,12 @@ Ejemplo de la respuesta que debería entregar:
 ```
 
 REQUISITOS:
--	Se pueden implementar las soluciones en cualquier lenguaje y framework. Aunque recomendamos usar: Java(con Spring Boot), Go y Python.
+-	Se pueden implementar las soluciones en cualquier lenguaje y framework. Aunque recomendamos usar: Java(con o sin Spring Boot), Go y Python.
 -	La solución debe ser enviada vía un pull request a este repositorio.
--	La solución debe contener un README con las instrucciones para compilar e instalar.
+-	La solución debe contener un README.md con las instrucciones para compilar e instalar.
 -	Puedes implementar cualquiera de los 3 niveles, no es necesario implementar los 3.
 -	Hay bonus si usas SWAGGER.
 -	Junto con la solución debes entregar un archivo con la entrada y con la salida en formato JSON.
+
+NOTA:
+Todos los poll reuqests serán rechazados, esto no quiere decir que ha sido rechazada la solución, sino que es una forma de que otros postulantes no copien tu código.
