@@ -55,8 +55,8 @@ El programa debe responder con archivo con este contenido:
 ```json
 {
     "id": 6,
-    "fechaCreacion": "1968-08-01",
-    "fechaFin": "1971-06-01",
+    "fechaCreacion": "1969-03-01",
+    "fechaFin": "1970-01-01",
     "fechasFaltantes": [
       "1969-04-01",
       "1969-06-01",
